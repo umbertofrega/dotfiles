@@ -1,0 +1,200 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "$gui_config": {
+        "secciones_datos": [
+            {
+                "arbol": true,
+                "color": "34",
+                "color_icono_titulo": "34",
+                "color_valores": "37",
+                "cuadrado": true,
+                "icono_titulo": "\udb83\udf86",
+                "modulos": [
+                    {
+                        "icon_color": "34",
+                        "type": "os"
+                    },
+                    {
+                        "type": "packages"
+                    },
+                    {
+                        "icon_color": "34",
+                        "type": "wm"
+                    },
+                    {
+                        "icon_color": "34",
+                        "type": "theme"
+                    },
+                    {
+                        "icon_color": "34",
+                        "type": "icons"
+                    },
+                    {
+                        "icon_color": "34",
+                        "type": "terminal"
+                    }
+                ],
+                "nombre": "SOFTWARE"
+            },
+            {
+                "arbol": true,
+                "color": "36",
+                "color_icono_titulo": "36",
+                "color_valores": "37",
+                "cuadrado": true,
+                "icono_titulo": "\uf4bc",
+                "modulos": [
+                    {
+                        "icon_color": "36",
+                        "type": "cpu"
+                    },
+                    {
+                        "icon_color": "36",
+                        "type": "gpu"
+                    },
+                    {
+                        "custom_text": "",
+                        "format": "",
+                        "icon_color": "36",
+                        "type": "memory",
+                        "usar_barra": false
+                    },
+                    {
+                        "custom_text": "",
+                        "format": "",
+                        "icon_color": "36",
+                        "type": "battery",
+                        "usar_barra": false
+                    },
+                    {
+                        "custom_text": "Disk",
+                        "format": "",
+                        "icon_color": "36",
+                        "type": "physicaldisk"
+                    }
+                ],
+                "nombre": "HARDWARE"
+            }
+        ],
+        "ancho_int": 45,
+        "logo_index": 0,
+        "pad_top": 1,
+        "pad_left": 2,
+        "pad_right": 3,
+        "caja_global": false,
+        "color_global": 0,
+        "titulo_global": "",
+        "alineacion_global": 0,
+        "ruta_imagen": "",
+        "usar_iconos": true,
+        "color_iconos": 5,
+        "barra_lleno": 5,
+        "barra_vacio": 1,
+        "barra_chars": 3,
+        "padding_top_secciones": 0,
+        "padding_secciones": 1
+    },
+    "logo": {
+        "padding": {
+            "top": 1,
+            "left": 2,
+            "right": 3
+        },
+        "type": "auto"
+    },
+    "display": {
+        "separator": "  ",
+        "color": {
+            "keys": "white"
+        },
+        "bar": {
+            "char": {
+                "elapsed": "\u001b[0;34m\u25cf\u001b[0m",
+                "total": "\u001b[0;90m\u25cb\u001b[0m"
+            },
+            "width": 15
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "\u001b[0;34m \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\u001b[0m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[0;34m\u001b[47C\u2502\u001b[48D \u2502 \u001b[0;34m\udb83\udf86 \u001b[0;34mSOFTWARE\u001b[0m"
+        },
+        {
+            "type": "os",
+            "key": "\u001b[0;34m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;34m\udb82\udcc7\u001b[0;34m Os\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "packages",
+            "key": "\u001b[0;34m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;34m\udb80\udfd6\u001b[0;34m Packages\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "wm",
+            "key": "\u001b[0;34m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;34m\uf488\u001b[0;34m Wm\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "theme",
+            "key": "\u001b[0;34m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;34m\udb80\ude7c\u001b[0;34m Theme\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "icons",
+            "key": "\u001b[0;34m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;34m\udb80\udc3b\u001b[0;34m Icons\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "terminal",
+            "key": "\u001b[0;34m\u001b[47C\u2502\u001b[48D \u2502 \u2514\u2500 \u001b[0;34m\uf489\u001b[0;34m Terminal\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[0;34m \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\u001b[0m"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[0;36m \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\u001b[0m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[0;36m\u001b[47C\u2502\u001b[48D \u2502 \u001b[0;36m\uf4bc \u001b[0;36mHARDWARE\u001b[0m"
+        },
+        {
+            "type": "cpu",
+            "key": "\u001b[0;36m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;36m\uf4bc\u001b[0;36m Cpu\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "gpu",
+            "key": "\u001b[0;36m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;36m\udb82\udcae\u001b[0;36m Gpu\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "memory",
+            "key": "\u001b[0;36m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;36m\uefc5\u001b[0;36m Memory\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "battery",
+            "key": "\u001b[0;36m\u001b[47C\u2502\u001b[48D \u2502 \u251c\u2500 \u001b[0;36m\uf240\u001b[0;36m Battery\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "physicaldisk",
+            "key": "\u001b[0;36m\u001b[47C\u2502\u001b[48D \u2502 \u2514\u2500 \u001b[0;36m\udb80\udeca\u001b[0;36m Disk\u001b[0m",
+            "outputColor": "37"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[0;36m \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\u001b[0m"
+        }
+    ]
+}
