@@ -21,8 +21,10 @@ hl.window_rule({
 
 hl.window_rule({
 	name = "kitty-size",
-	match = { class = "kitty" },
-	size = { 1200, 800 },
+	match = {
+		class = "kitty",
+	},
+	size = { "(monitor_w*0.75)", "(monitor_h*0.75)" },
 	animation = "popin",
 	float = true,
 })
