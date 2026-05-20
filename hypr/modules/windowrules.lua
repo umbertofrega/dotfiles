@@ -30,6 +30,14 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	name = "minecraft-size",
+	match = {
+		class = "^$Minecraft",
+	},
+	fullscreen = true,
+})
+
+hl.window_rule({
 	name = "move-hyprland-run",
 	match = { class = "hyprland-run" },
 

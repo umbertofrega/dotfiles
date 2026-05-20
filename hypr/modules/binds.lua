@@ -1,3 +1,4 @@
+-- Definizione delle variabili
 local mainMod = "SUPER"
 
 local terminal = "kitty"
@@ -10,6 +11,7 @@ hl.bind(
 	mainMod .. " + escape",
 	hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")
 )
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(fileManager))
