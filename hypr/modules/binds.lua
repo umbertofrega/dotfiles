@@ -43,6 +43,13 @@ hl.bind(mainMod .. " + mouse_up", hl.dsp.focus({ workspace = "e-1" }))
 -- Move/resize windows with mainMod + LMB/RMB and dragging
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
+hl.bind(mainMod .. " + mouse:274", hl.dsp.window.pin(), { mouse = true })
+hl.bind(
+	mainMod .. " + mouse:275",
+	hl.dsp.workspace.swap_monitors({ monitor1 = "eDP-1", monitor2 = "HDMI-A-1" }),
+	{ mouse = true }
+)
+hl.bind(mainMod .. " + mouse:276", hl.dsp.window.swap({ next = "right" }))
 
 hl.bind(
 	"XF86AudioRaiseVolume",
